@@ -1,0 +1,23 @@
+server:
+  port: 8088
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=magi
+    username: aolifuo
+    password: test@123
+
+mybatis:
+  type-aliases-package: com.mikasuki.audiosep.server.entity
+  mapper-locations: classpath:mapper/*.xml
+
+
+
