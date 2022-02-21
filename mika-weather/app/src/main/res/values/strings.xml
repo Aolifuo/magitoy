@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MikaWeather</string>
+    <string name="title_activity_city_management">CityManagementActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="qweather_key">ef677dc1bb9e4e5cb20dff218d7375bc</string>
+    <string name="realtime_weather_address">https://devapi.qweather.com/v7/weather/now?location=</string>
+    <string name="hourly_weather_address">https://devapi.qweather.com/v7/weather/24h?location=</string>
+    <string name="daily_weather_address">https://devapi.qweather.com/v7/weather/3d?location=</string>
+    <string name="province_address">http://guolin.tech/api/china</string>
+
+    <string name="mycity_name">台州</string>
+    <string name="mycity_weather_id">CN101210601</string>
+</resources>
